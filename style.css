@@ -1,0 +1,103 @@
+body{
+	font-family: "Lato", sans-serif;
+}
+
+#container{
+	display: flex;
+}
+
+#left_container{
+	width: 68%;
+	height: 695px;
+	background: #E6ECF5;
+	animation: myhair 0.6s;
+}
+
+@keyframes myhair{
+	0%{
+		opacity: 0;
+		transform: translateX(-130px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+*{
+	margin: 0;
+}
+
+.logo{
+	padding: 10px 10px ;
+}
+
+.main_pic{
+	padding-left: 245px;
+	margin-top: 45px;
+}
+
+#right_container{
+	width: 32%;
+	height: 695px;
+	background: #ffffff;
+	animation: mybox 0.6s;
+}
+
+@keyframes mybox{
+	0%{
+		opacity: 0;
+		transform: translateX(+100px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+#form_container{
+	width: 70%;
+	height: 400px;
+	margin-left: 15%;
+	margin-top: 150px;
+}
+
+.user_input{
+	width: 98%;
+	height: 40px;
+	background: #E6ECF5;
+	border-radius: 7px;
+	border: none;
+	margin-top: 10px;
+}
+
+.password{
+	width: 98%;
+	height: 40px;
+	background: #E6ECF5;
+	border-radius: 7px;
+	border: none;
+	margin-top: 10px;
+}
+
+#checkbox_container{
+	display: flex;
+}
+
+.text_decoration{
+	text-decoration: none;
+	color: blue;
+}
+
+.Sign_in{
+	width: 100%;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	color: white;
+	background: blue;
+	border-radius: 7.6px;
+	border: none;
+	opacity: 0.5;
+}
